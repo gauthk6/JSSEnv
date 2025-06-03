@@ -1,0 +1,19 @@
+{
+  "20x15_medium_large": {
+    "status": "failed",
+    "error": "",
+    "max_episode_steps": 3000
+  },
+  "50x15_large": {
+    "status": "success",
+    "training_time": 1104.8626968860626,
+    "model_path": "scaling_studies/scaling_study_20250602_113913/models/50x15_large/model.pt",
+    "max_episode_steps": 3000
+  },
+  "50x20_very_large": {
+    "status": "success",
+    "training_time": 1171.0392389297485,
+    "model_path": "scaling_studies/scaling_study_20250602_113913/models/50x20_very_large/model.pt",
+    "max_episode_steps": 3000
+  }
+}

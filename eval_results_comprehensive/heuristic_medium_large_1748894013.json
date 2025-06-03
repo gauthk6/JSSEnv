@@ -1,0 +1,1989 @@
+{
+  "size_category": "medium_large",
+  "instances": [
+    "ta46",
+    "ta47",
+    "ta48",
+    "ta49",
+    "ta50"
+  ],
+  "heuristics": [
+    "SPT",
+    "LPT",
+    "FIFO"
+  ],
+  "episodes_per_instance": 10,
+  "instance_results": {
+    "ta46": {
+      "SPT": {
+        "heuristic": "SPT",
+        "instance": "ta46",
+        "episodes": 10,
+        "stats": {
+          "makespan": {
+            "mean": 2667.0,
+            "std": 0.0,
+            "min": 2667.0,
+            "max": 2667.0
+          },
+          "reward": {
+            "mean": -25.964848484848527,
+            "std": 3.552713678800501e-15,
+            "min": -25.96484848484853,
+            "max": -25.96484848484853
+          },
+          "steps": {
+            "mean": 790.0,
+            "std": 0.0,
+            "min": 790,
+            "max": 790
+          },
+          "success_rate": 1.0,
+          "runtime": {
+            "mean": 0.12772808074951172,
+            "total": 1.2772808074951172
+          },
+          "inference_time": {
+            "mean_ms": 0.0070176245291021806,
+            "std_ms": 0.07188301349660985,
+            "min_ms": 0.0007152557373046875,
+            "max_ms": 5.256891250610352,
+            "total_actions": 7900
+          }
+        },
+        "episode_results": [
+          {
+            "episode": 0,
+            "reward": -25.96484848484853,
+            "steps": 790,
+            "makespan": 2667.0,
+            "success": true,
+            "time": 0.12121319770812988,
+            "avg_inference_time_ms": 0.006008148193359375
+          },
+          {
+            "episode": 1,
+            "reward": -25.96484848484853,
+            "steps": 790,
+            "makespan": 2667.0,
+            "success": true,
+            "time": 0.11934900283813477,
+            "avg_inference_time_ms": 0.005497811715814132
+          },
+          {
+            "episode": 2,
+            "reward": -25.96484848484853,
+            "steps": 790,
+            "makespan": 2667.0,
+            "success": true,
+            "time": 0.12344598770141602,
+            "avg_inference_time_ms": 0.005755243422109869
+          },
+          {
+            "episode": 3,
+            "reward": -25.96484848484853,
+            "steps": 790,
+            "makespan": 2667.0,
+            "success": true,
+            "time": 0.1988539695739746,
+            "avg_inference_time_ms": 0.020276443867743767
+          },
+          {
+            "episode": 4,
+            "reward": -25.96484848484853,
+            "steps": 790,
+            "makespan": 2667.0,
+            "success": true,
+            "time": 0.1203157901763916,
+            "avg_inference_time_ms": 0.005596498899821994
+          },
+          {
+            "episode": 5,
+            "reward": -25.96484848484853,
+            "steps": 790,
+            "makespan": 2667.0,
+            "success": true,
+            "time": 0.11895298957824707,
+            "avg_inference_time_ms": 0.005487248867372924
+          },
+          {
+            "episode": 6,
+            "reward": -25.96484848484853,
+            "steps": 790,
+            "makespan": 2667.0,
+            "success": true,
+            "time": 0.11757683753967285,
+            "avg_inference_time_ms": 0.005174890349182901
+          },
+          {
+            "episode": 7,
+            "reward": -25.96484848484853,
+            "steps": 790,
+            "makespan": 2667.0,
+            "success": true,
+            "time": 0.12199807167053223,
+            "avg_inference_time_ms": 0.005689451966104628
+          },
+          {
+            "episode": 8,
+            "reward": -25.96484848484853,
+            "steps": 790,
+            "makespan": 2667.0,
+            "success": true,
+            "time": 0.11774110794067383,
+            "avg_inference_time_ms": 0.005294401434403431
+          },
+          {
+            "episode": 9,
+            "reward": -25.96484848484853,
+            "steps": 790,
+            "makespan": 2667.0,
+            "success": true,
+            "time": 0.11783385276794434,
+            "avg_inference_time_ms": 0.005396106575108781
+          }
+        ]
+      },
+      "LPT": {
+        "heuristic": "LPT",
+        "instance": "ta46",
+        "episodes": 10,
+        "stats": {
+          "makespan": {
+            "mean": 2916.0,
+            "std": 0.0,
+            "min": 2916.0,
+            "max": 2916.0
+          },
+          "reward": {
+            "mean": -28.479494949494985,
+            "std": 7.105427357601002e-15,
+            "min": -28.479494949494978,
+            "max": -28.479494949494978
+          },
+          "steps": {
+            "mean": 795.0,
+            "std": 0.0,
+            "min": 795,
+            "max": 795
+          },
+          "success_rate": 1.0,
+          "runtime": {
+            "mean": 0.1177901029586792,
+            "total": 1.177901029586792
+          },
+          "inference_time": {
+            "mean_ms": 0.004114894746984325,
+            "std_ms": 0.005018618013293121,
+            "min_ms": 0.0007152557373046875,
+            "max_ms": 0.19788742065429688,
+            "total_actions": 7950
+          }
+        },
+        "episode_results": [
+          {
+            "episode": 0,
+            "reward": -28.479494949494978,
+            "steps": 795,
+            "makespan": 2916.0,
+            "success": true,
+            "time": 0.12436103820800781,
+            "avg_inference_time_ms": 0.004514058430989583
+          },
+          {
+            "episode": 1,
+            "reward": -28.479494949494978,
+            "steps": 795,
+            "makespan": 2916.0,
+            "success": true,
+            "time": 0.11711382865905762,
+            "avg_inference_time_ms": 0.004189569245344438
+          },
+          {
+            "episode": 2,
+            "reward": -28.479494949494978,
+            "steps": 795,
+            "makespan": 2916.0,
+            "success": true,
+            "time": 0.11624383926391602,
+            "avg_inference_time_ms": 0.004057014513315645
+          },
+          {
+            "episode": 3,
+            "reward": -28.479494949494978,
+            "steps": 795,
+            "makespan": 2916.0,
+            "success": true,
+            "time": 0.11697196960449219,
+            "avg_inference_time_ms": 0.003928658347459709
+          },
+          {
+            "episode": 4,
+            "reward": -28.479494949494978,
+            "steps": 795,
+            "makespan": 2916.0,
+            "success": true,
+            "time": 0.11764717102050781,
+            "avg_inference_time_ms": 0.00427773913497445
+          },
+          {
+            "episode": 5,
+            "reward": -28.479494949494978,
+            "steps": 795,
+            "makespan": 2916.0,
+            "success": true,
+            "time": 0.11645007133483887,
+            "avg_inference_time_ms": 0.0038263932713922468
+          },
+          {
+            "episode": 6,
+            "reward": -28.479494949494978,
+            "steps": 795,
+            "makespan": 2916.0,
+            "success": true,
+            "time": 0.11786293983459473,
+            "avg_inference_time_ms": 0.0042054638172845426
+          },
+          {
+            "episode": 7,
+            "reward": -28.479494949494978,
+            "steps": 795,
+            "makespan": 2916.0,
+            "success": true,
+            "time": 0.11735081672668457,
+            "avg_inference_time_ms": 0.003941553943562058
+          },
+          {
+            "episode": 8,
+            "reward": -28.479494949494978,
+            "steps": 795,
+            "makespan": 2916.0,
+            "success": true,
+            "time": 0.11769437789916992,
+            "avg_inference_time_ms": 0.004331420802470273
+          },
+          {
+            "episode": 9,
+            "reward": -28.479494949494978,
+            "steps": 795,
+            "makespan": 2916.0,
+            "success": true,
+            "time": 0.11620497703552246,
+            "avg_inference_time_ms": 0.0038770759630503146
+          }
+        ]
+      },
+      "FIFO": {
+        "heuristic": "FIFO",
+        "instance": "ta46",
+        "episodes": 10,
+        "stats": {
+          "makespan": {
+            "mean": 3107.0,
+            "std": 0.0,
+            "min": 3107.0,
+            "max": 3107.0
+          },
+          "reward": {
+            "mean": -30.409898989899027,
+            "std": 3.552713678800501e-15,
+            "min": -30.40989898989903,
+            "max": -30.40989898989903
+          },
+          "steps": {
+            "mean": 794.0,
+            "std": 0.0,
+            "min": 794,
+            "max": 794
+          },
+          "success_rate": 1.0,
+          "runtime": {
+            "mean": 0.11398930549621582,
+            "total": 1.1398930549621582
+          },
+          "inference_time": {
+            "mean_ms": 0.0024750190657992807,
+            "std_ms": 0.0025736621492716506,
+            "min_ms": 0.0007152557373046875,
+            "max_ms": 0.06985664367675781,
+            "total_actions": 7940
+          }
+        },
+        "episode_results": [
+          {
+            "episode": 0,
+            "reward": -30.40989898989903,
+            "steps": 794,
+            "makespan": 3107.0,
+            "success": true,
+            "time": 0.11800098419189453,
+            "avg_inference_time_ms": 0.002707282001485752
+          },
+          {
+            "episode": 1,
+            "reward": -30.40989898989903,
+            "steps": 794,
+            "makespan": 3107.0,
+            "success": true,
+            "time": 0.11256980895996094,
+            "avg_inference_time_ms": 0.0023379433965803093
+          },
+          {
+            "episode": 2,
+            "reward": -30.40989898989903,
+            "steps": 794,
+            "makespan": 3107.0,
+            "success": true,
+            "time": 0.11556291580200195,
+            "avg_inference_time_ms": 0.002544833070385066
+          },
+          {
+            "episode": 3,
+            "reward": -30.40989898989903,
+            "steps": 794,
+            "makespan": 3107.0,
+            "success": true,
+            "time": 0.11311221122741699,
+            "avg_inference_time_ms": 0.002452348281514434
+          },
+          {
+            "episode": 4,
+            "reward": -30.40989898989903,
+            "steps": 794,
+            "makespan": 3107.0,
+            "success": true,
+            "time": 0.11284303665161133,
+            "avg_inference_time_ms": 0.002473968102289387
+          },
+          {
+            "episode": 5,
+            "reward": -30.40989898989903,
+            "steps": 794,
+            "makespan": 3107.0,
+            "success": true,
+            "time": 0.11632204055786133,
+            "avg_inference_time_ms": 0.002669747590418126
+          },
+          {
+            "episode": 6,
+            "reward": -30.40989898989903,
+            "steps": 794,
+            "makespan": 3107.0,
+            "success": true,
+            "time": 0.11311721801757812,
+            "avg_inference_time_ms": 0.0024220204773717923
+          },
+          {
+            "episode": 7,
+            "reward": -30.40989898989903,
+            "steps": 794,
+            "makespan": 3107.0,
+            "success": true,
+            "time": 0.11247110366821289,
+            "avg_inference_time_ms": 0.0023412464247542604
+          },
+          {
+            "episode": 8,
+            "reward": -30.40989898989903,
+            "steps": 794,
+            "makespan": 3107.0,
+            "success": true,
+            "time": 0.11297988891601562,
+            "avg_inference_time_ms": 0.0024754694787320923
+          },
+          {
+            "episode": 9,
+            "reward": -30.40989898989903,
+            "steps": 794,
+            "makespan": 3107.0,
+            "success": true,
+            "time": 0.11291384696960449,
+            "avg_inference_time_ms": 0.002325331834461587
+          }
+        ]
+      }
+    },
+    "ta47": {
+      "SPT": {
+        "heuristic": "SPT",
+        "instance": "ta47",
+        "episodes": 10,
+        "stats": {
+          "makespan": {
+            "mean": 2620.0,
+            "std": 0.0,
+            "min": 2620.0,
+            "max": 2620.0
+          },
+          "reward": {
+            "mean": -25.489696969697036,
+            "std": 0.0,
+            "min": -25.489696969697036,
+            "max": -25.489696969697036
+          },
+          "steps": {
+            "mean": 781.0,
+            "std": 0.0,
+            "min": 781,
+            "max": 781
+          },
+          "success_rate": 1.0,
+          "runtime": {
+            "mean": 0.11740965843200683,
+            "total": 1.1740965843200684
+          },
+          "inference_time": {
+            "mean_ms": 0.005283612142604383,
+            "std_ms": 0.005229561899631832,
+            "min_ms": 0.0007152557373046875,
+            "max_ms": 0.16617774963378906,
+            "total_actions": 7810
+          }
+        },
+        "episode_results": [
+          {
+            "episode": 0,
+            "reward": -25.489696969697036,
+            "steps": 781,
+            "makespan": 2620.0,
+            "success": true,
+            "time": 0.11658596992492676,
+            "avg_inference_time_ms": 0.005173774748544534
+          },
+          {
+            "episode": 1,
+            "reward": -25.489696969697036,
+            "steps": 781,
+            "makespan": 2620.0,
+            "success": true,
+            "time": 0.11796998977661133,
+            "avg_inference_time_ms": 0.005329158944143376
+          },
+          {
+            "episode": 2,
+            "reward": -25.489696969697036,
+            "steps": 781,
+            "makespan": 2620.0,
+            "success": true,
+            "time": 0.1172630786895752,
+            "avg_inference_time_ms": 0.005630769131278259
+          },
+          {
+            "episode": 3,
+            "reward": -25.489696969697036,
+            "steps": 781,
+            "makespan": 2620.0,
+            "success": true,
+            "time": 0.1182870864868164,
+            "avg_inference_time_ms": 0.005379223793020017
+          },
+          {
+            "episode": 4,
+            "reward": -25.489696969697036,
+            "steps": 781,
+            "makespan": 2620.0,
+            "success": true,
+            "time": 0.11721491813659668,
+            "avg_inference_time_ms": 0.0053001579646111754
+          },
+          {
+            "episode": 5,
+            "reward": -25.489696969697036,
+            "steps": 781,
+            "makespan": 2620.0,
+            "success": true,
+            "time": 0.11802911758422852,
+            "avg_inference_time_ms": 0.005239713817796695
+          },
+          {
+            "episode": 6,
+            "reward": -25.489696969697036,
+            "steps": 781,
+            "makespan": 2620.0,
+            "success": true,
+            "time": 0.11659717559814453,
+            "avg_inference_time_ms": 0.0053389276951436955
+          },
+          {
+            "episode": 7,
+            "reward": -25.489696969697036,
+            "steps": 781,
+            "makespan": 2620.0,
+            "success": true,
+            "time": 0.11757016181945801,
+            "avg_inference_time_ms": 0.005291610307485896
+          },
+          {
+            "episode": 8,
+            "reward": -25.489696969697036,
+            "steps": 781,
+            "makespan": 2620.0,
+            "success": true,
+            "time": 0.11659002304077148,
+            "avg_inference_time_ms": 0.005053802275321853
+          },
+          {
+            "episode": 9,
+            "reward": -25.489696969697036,
+            "steps": 781,
+            "makespan": 2620.0,
+            "success": true,
+            "time": 0.11798906326293945,
+            "avg_inference_time_ms": 0.0050989827486983335
+          }
+        ]
+      },
+      "LPT": {
+        "heuristic": "LPT",
+        "instance": "ta47",
+        "episodes": 10,
+        "stats": {
+          "makespan": {
+            "mean": 2942.0,
+            "std": 0.0,
+            "min": 2942.0,
+            "max": 2942.0
+          },
+          "reward": {
+            "mean": -28.742828282828306,
+            "std": 7.105427357601002e-15,
+            "min": -28.7428282828283,
+            "max": -28.7428282828283
+          },
+          "steps": {
+            "mean": 784.0,
+            "std": 0.0,
+            "min": 784,
+            "max": 784
+          },
+          "success_rate": 1.0,
+          "runtime": {
+            "mean": 0.11628801822662353,
+            "total": 1.1628801822662354
+          },
+          "inference_time": {
+            "mean_ms": 0.004145168528264883,
+            "std_ms": 0.005146699254956403,
+            "min_ms": 0.0007152557373046875,
+            "max_ms": 0.15783309936523438,
+            "total_actions": 7840
+          }
+        },
+        "episode_results": [
+          {
+            "episode": 0,
+            "reward": -28.7428282828283,
+            "steps": 784,
+            "makespan": 2942.0,
+            "success": true,
+            "time": 0.11557292938232422,
+            "avg_inference_time_ms": 0.004208513668605259
+          },
+          {
+            "episode": 1,
+            "reward": -28.7428282828283,
+            "steps": 784,
+            "makespan": 2942.0,
+            "success": true,
+            "time": 0.11504292488098145,
+            "avg_inference_time_ms": 0.00405889384600581
+          },
+          {
+            "episode": 2,
+            "reward": -28.7428282828283,
+            "steps": 784,
+            "makespan": 2942.0,
+            "success": true,
+            "time": 0.12069392204284668,
+            "avg_inference_time_ms": 0.004134311967966508
+          },
+          {
+            "episode": 3,
+            "reward": -28.7428282828283,
+            "steps": 784,
+            "makespan": 2942.0,
+            "success": true,
+            "time": 0.11728525161743164,
+            "avg_inference_time_ms": 0.00407166626988625
+          },
+          {
+            "episode": 4,
+            "reward": -28.7428282828283,
+            "steps": 784,
+            "makespan": 2942.0,
+            "success": true,
+            "time": 0.11724495887756348,
+            "avg_inference_time_ms": 0.004227976409756407
+          },
+          {
+            "episode": 5,
+            "reward": -28.7428282828283,
+            "steps": 784,
+            "makespan": 2942.0,
+            "success": true,
+            "time": 0.11468982696533203,
+            "avg_inference_time_ms": 0.004085655115088638
+          },
+          {
+            "episode": 6,
+            "reward": -28.7428282828283,
+            "steps": 784,
+            "makespan": 2942.0,
+            "success": true,
+            "time": 0.11636090278625488,
+            "avg_inference_time_ms": 0.0042346667270271145
+          },
+          {
+            "episode": 7,
+            "reward": -28.7428282828283,
+            "steps": 784,
+            "makespan": 2942.0,
+            "success": true,
+            "time": 0.11464715003967285,
+            "avg_inference_time_ms": 0.00402300941700838
+          },
+          {
+            "episode": 8,
+            "reward": -28.7428282828283,
+            "steps": 784,
+            "makespan": 2942.0,
+            "success": true,
+            "time": 0.1165010929107666,
+            "avg_inference_time_ms": 0.004130966809331155
+          },
+          {
+            "episode": 9,
+            "reward": -28.7428282828283,
+            "steps": 784,
+            "makespan": 2942.0,
+            "success": true,
+            "time": 0.11484122276306152,
+            "avg_inference_time_ms": 0.004276025051973304
+          }
+        ]
+      },
+      "FIFO": {
+        "heuristic": "FIFO",
+        "instance": "ta47",
+        "episodes": 10,
+        "stats": {
+          "makespan": {
+            "mean": 2466.0,
+            "std": 0.0,
+            "min": 2466.0,
+            "max": 2466.0
+          },
+          "reward": {
+            "mean": -23.935757575757627,
+            "std": 0.0,
+            "min": -23.935757575757627,
+            "max": -23.935757575757627
+          },
+          "steps": {
+            "mean": 791.0,
+            "std": 0.0,
+            "min": 791,
+            "max": 791
+          },
+          "success_rate": 1.0,
+          "runtime": {
+            "mean": 0.11552131175994873,
+            "total": 1.1552131175994873
+          },
+          "inference_time": {
+            "mean_ms": 0.0023722497913539033,
+            "std_ms": 0.0024151392873745215,
+            "min_ms": 0.0007152557373046875,
+            "max_ms": 0.07605552673339844,
+            "total_actions": 7910
+          }
+        },
+        "episode_results": [
+          {
+            "episode": 0,
+            "reward": -23.935757575757627,
+            "steps": 791,
+            "makespan": 2466.0,
+            "success": true,
+            "time": 0.11632204055786133,
+            "avg_inference_time_ms": 0.0024480855871844382
+          },
+          {
+            "episode": 1,
+            "reward": -23.935757575757627,
+            "steps": 791,
+            "makespan": 2466.0,
+            "success": true,
+            "time": 0.11609077453613281,
+            "avg_inference_time_ms": 0.002426986597883415
+          },
+          {
+            "episode": 2,
+            "reward": -23.935757575757627,
+            "steps": 791,
+            "makespan": 2466.0,
+            "success": true,
+            "time": 0.11636090278625488,
+            "avg_inference_time_ms": 0.0024688831623525895
+          },
+          {
+            "episode": 3,
+            "reward": -23.935757575757627,
+            "steps": 791,
+            "makespan": 2466.0,
+            "success": true,
+            "time": 0.11554908752441406,
+            "avg_inference_time_ms": 0.0022853219554336878
+          },
+          {
+            "episode": 4,
+            "reward": -23.935757575757627,
+            "steps": 791,
+            "makespan": 2466.0,
+            "success": true,
+            "time": 0.11446404457092285,
+            "avg_inference_time_ms": 0.0023657995289104476
+          },
+          {
+            "episode": 5,
+            "reward": -23.935757575757627,
+            "steps": 791,
+            "makespan": 2466.0,
+            "success": true,
+            "time": 0.11642313003540039,
+            "avg_inference_time_ms": 0.0023260128633713754
+          },
+          {
+            "episode": 6,
+            "reward": -23.935757575757627,
+            "steps": 791,
+            "makespan": 2466.0,
+            "success": true,
+            "time": 0.11388874053955078,
+            "avg_inference_time_ms": 0.0023835829627498815
+          },
+          {
+            "episode": 7,
+            "reward": -23.935757575757627,
+            "steps": 791,
+            "makespan": 2466.0,
+            "success": true,
+            "time": 0.11534309387207031,
+            "avg_inference_time_ms": 0.002291048823958251
+          },
+          {
+            "episode": 8,
+            "reward": -23.935757575757627,
+            "steps": 791,
+            "makespan": 2466.0,
+            "success": true,
+            "time": 0.11588120460510254,
+            "avg_inference_time_ms": 0.0024498940719816687
+          },
+          {
+            "episode": 9,
+            "reward": -23.935757575757627,
+            "steps": 791,
+            "makespan": 2466.0,
+            "success": true,
+            "time": 0.11489009857177734,
+            "avg_inference_time_ms": 0.0022768823597132783
+          }
+        ]
+      }
+    },
+    "ta48": {
+      "SPT": {
+        "heuristic": "SPT",
+        "instance": "ta48",
+        "episodes": 10,
+        "stats": {
+          "makespan": {
+            "mean": 2620.0,
+            "std": 0.0,
+            "min": 2620.0,
+            "max": 2620.0
+          },
+          "reward": {
+            "mean": -25.489191919191974,
+            "std": 0.0,
+            "min": -25.489191919191974,
+            "max": -25.489191919191974
+          },
+          "steps": {
+            "mean": 780.0,
+            "std": 0.0,
+            "min": 780,
+            "max": 780
+          },
+          "success_rate": 1.0,
+          "runtime": {
+            "mean": 0.11793739795684814,
+            "total": 1.1793739795684814
+          },
+          "inference_time": {
+            "mean_ms": 0.0053500212155855615,
+            "std_ms": 0.005729610916048567,
+            "min_ms": 0.0007152557373046875,
+            "max_ms": 0.19311904907226562,
+            "total_actions": 7800
+          }
+        },
+        "episode_results": [
+          {
+            "episode": 0,
+            "reward": -25.489191919191974,
+            "steps": 780,
+            "makespan": 2620.0,
+            "success": true,
+            "time": 0.12308192253112793,
+            "avg_inference_time_ms": 0.005887410579583583
+          },
+          {
+            "episode": 1,
+            "reward": -25.489191919191974,
+            "steps": 780,
+            "makespan": 2620.0,
+            "success": true,
+            "time": 0.11907672882080078,
+            "avg_inference_time_ms": 0.0055389526562813
+          },
+          {
+            "episode": 2,
+            "reward": -25.489191919191974,
+            "steps": 780,
+            "makespan": 2620.0,
+            "success": true,
+            "time": 0.11559581756591797,
+            "avg_inference_time_ms": 0.005146478995298728
+          },
+          {
+            "episode": 3,
+            "reward": -25.489191919191974,
+            "steps": 780,
+            "makespan": 2620.0,
+            "success": true,
+            "time": 0.11704182624816895,
+            "avg_inference_time_ms": 0.005441445570725661
+          },
+          {
+            "episode": 4,
+            "reward": -25.489191919191974,
+            "steps": 780,
+            "makespan": 2620.0,
+            "success": true,
+            "time": 0.117034912109375,
+            "avg_inference_time_ms": 0.005127222110063602
+          },
+          {
+            "episode": 5,
+            "reward": -25.489191919191974,
+            "steps": 780,
+            "makespan": 2620.0,
+            "success": true,
+            "time": 0.11801600456237793,
+            "avg_inference_time_ms": 0.0054934085943760015
+          },
+          {
+            "episode": 6,
+            "reward": -25.489191919191974,
+            "steps": 780,
+            "makespan": 2620.0,
+            "success": true,
+            "time": 0.11643576622009277,
+            "avg_inference_time_ms": 0.005092681982578375
+          },
+          {
+            "episode": 7,
+            "reward": -25.489191919191974,
+            "steps": 780,
+            "makespan": 2620.0,
+            "success": true,
+            "time": 0.11752891540527344,
+            "avg_inference_time_ms": 0.005406599778395433
+          },
+          {
+            "episode": 8,
+            "reward": -25.489191919191974,
+            "steps": 780,
+            "makespan": 2620.0,
+            "success": true,
+            "time": 0.11663317680358887,
+            "avg_inference_time_ms": 0.004995174897022736
+          },
+          {
+            "episode": 9,
+            "reward": -25.489191919191974,
+            "steps": 780,
+            "makespan": 2620.0,
+            "success": true,
+            "time": 0.11892890930175781,
+            "avg_inference_time_ms": 0.005370836991530198
+          }
+        ]
+      },
+      "LPT": {
+        "heuristic": "LPT",
+        "instance": "ta48",
+        "episodes": 10,
+        "stats": {
+          "makespan": {
+            "mean": 3014.0,
+            "std": 0.0,
+            "min": 3014.0,
+            "max": 3014.0
+          },
+          "reward": {
+            "mean": -29.468282828282877,
+            "std": 0.0,
+            "min": -29.468282828282877,
+            "max": -29.468282828282877
+          },
+          "steps": {
+            "mean": 780.0,
+            "std": 0.0,
+            "min": 780,
+            "max": 780
+          },
+          "success_rate": 1.0,
+          "runtime": {
+            "mean": 0.1146277666091919,
+            "total": 1.146277666091919
+          },
+          "inference_time": {
+            "mean_ms": 0.0041553301688952325,
+            "std_ms": 0.004389378343417947,
+            "min_ms": 0.0007152557373046875,
+            "max_ms": 0.11301040649414062,
+            "total_actions": 7800
+          }
+        },
+        "episode_results": [
+          {
+            "episode": 0,
+            "reward": -29.468282828282877,
+            "steps": 780,
+            "makespan": 3014.0,
+            "success": true,
+            "time": 0.1143350601196289,
+            "avg_inference_time_ms": 0.004219703185252654
+          },
+          {
+            "episode": 1,
+            "reward": -29.468282828282877,
+            "steps": 780,
+            "makespan": 3014.0,
+            "success": true,
+            "time": 0.11219501495361328,
+            "avg_inference_time_ms": 0.003962027720915966
+          },
+          {
+            "episode": 2,
+            "reward": -29.468282828282877,
+            "steps": 780,
+            "makespan": 3014.0,
+            "success": true,
+            "time": 0.11370396614074707,
+            "avg_inference_time_ms": 0.004222759833702674
+          },
+          {
+            "episode": 3,
+            "reward": -29.468282828282877,
+            "steps": 780,
+            "makespan": 3014.0,
+            "success": true,
+            "time": 0.11461305618286133,
+            "avg_inference_time_ms": 0.004179966755402394
+          },
+          {
+            "episode": 4,
+            "reward": -29.468282828282877,
+            "steps": 780,
+            "makespan": 3014.0,
+            "success": true,
+            "time": 0.11321592330932617,
+            "avg_inference_time_ms": 0.004030496646196414
+          },
+          {
+            "episode": 5,
+            "reward": -29.468282828282877,
+            "steps": 780,
+            "makespan": 3014.0,
+            "success": true,
+            "time": 0.1146230697631836,
+            "avg_inference_time_ms": 0.004122196099697015
+          },
+          {
+            "episode": 6,
+            "reward": -29.468282828282877,
+            "steps": 780,
+            "makespan": 3014.0,
+            "success": true,
+            "time": 0.11357998847961426,
+            "avg_inference_time_ms": 0.003947050143510868
+          },
+          {
+            "episode": 7,
+            "reward": -29.468282828282877,
+            "steps": 780,
+            "makespan": 3014.0,
+            "success": true,
+            "time": 0.12012481689453125,
+            "avg_inference_time_ms": 0.004520783057579627
+          },
+          {
+            "episode": 8,
+            "reward": -29.468282828282877,
+            "steps": 780,
+            "makespan": 3014.0,
+            "success": true,
+            "time": 0.1156158447265625,
+            "avg_inference_time_ms": 0.004138396336482122
+          },
+          {
+            "episode": 9,
+            "reward": -29.468282828282877,
+            "steps": 780,
+            "makespan": 3014.0,
+            "success": true,
+            "time": 0.11427092552185059,
+            "avg_inference_time_ms": 0.00420992191021259
+          }
+        ]
+      },
+      "FIFO": {
+        "heuristic": "FIFO",
+        "instance": "ta48",
+        "episodes": 10,
+        "stats": {
+          "makespan": {
+            "mean": 3033.0,
+            "std": 0.0,
+            "min": 3033.0,
+            "max": 3033.0
+          },
+          "reward": {
+            "mean": -29.65969696969703,
+            "std": 3.552713678800501e-15,
+            "min": -29.659696969697027,
+            "max": -29.659696969697027
+          },
+          "steps": {
+            "mean": 774.0,
+            "std": 0.0,
+            "min": 774,
+            "max": 774
+          },
+          "success_rate": 1.0,
+          "runtime": {
+            "mean": 0.1112525224685669,
+            "total": 1.112525224685669
+          },
+          "inference_time": {
+            "mean_ms": 0.0024457618555665324,
+            "std_ms": 0.0029711470514965457,
+            "min_ms": 0.0007152557373046875,
+            "max_ms": 0.09393692016601562,
+            "total_actions": 7740
+          }
+        },
+        "episode_results": [
+          {
+            "episode": 0,
+            "reward": -29.659696969697027,
+            "steps": 774,
+            "makespan": 3033.0,
+            "success": true,
+            "time": 0.11202812194824219,
+            "avg_inference_time_ms": 0.0023580028721220427
+          },
+          {
+            "episode": 1,
+            "reward": -29.659696969697027,
+            "steps": 774,
+            "makespan": 3033.0,
+            "success": true,
+            "time": 0.11104798316955566,
+            "avg_inference_time_ms": 0.0024602702729769766
+          },
+          {
+            "episode": 2,
+            "reward": -29.659696969697027,
+            "steps": 774,
+            "makespan": 3033.0,
+            "success": true,
+            "time": 0.11222219467163086,
+            "avg_inference_time_ms": 0.0025172566258630084
+          },
+          {
+            "episode": 3,
+            "reward": -29.659696969697027,
+            "steps": 774,
+            "makespan": 3033.0,
+            "success": true,
+            "time": 0.10892796516418457,
+            "avg_inference_time_ms": 0.0023543064600429486
+          },
+          {
+            "episode": 4,
+            "reward": -29.659696969697027,
+            "steps": 774,
+            "makespan": 3033.0,
+            "success": true,
+            "time": 0.1118619441986084,
+            "avg_inference_time_ms": 0.0027020772298177085
+          },
+          {
+            "episode": 5,
+            "reward": -29.659696969697027,
+            "steps": 774,
+            "makespan": 3033.0,
+            "success": true,
+            "time": 0.11199593544006348,
+            "avg_inference_time_ms": 0.0026158276146388483
+          },
+          {
+            "episode": 6,
+            "reward": -29.659696969697027,
+            "steps": 774,
+            "makespan": 3033.0,
+            "success": true,
+            "time": 0.1112058162689209,
+            "avg_inference_time_ms": 0.0023851098940353985
+          },
+          {
+            "episode": 7,
+            "reward": -29.659696969697027,
+            "steps": 774,
+            "makespan": 3033.0,
+            "success": true,
+            "time": 0.11216425895690918,
+            "avg_inference_time_ms": 0.002460578307316901
+          },
+          {
+            "episode": 8,
+            "reward": -29.659696969697027,
+            "steps": 774,
+            "makespan": 3033.0,
+            "success": true,
+            "time": 0.1106719970703125,
+            "avg_inference_time_ms": 0.002290235317338653
+          },
+          {
+            "episode": 9,
+            "reward": -29.659696969697027,
+            "steps": 774,
+            "makespan": 3033.0,
+            "success": true,
+            "time": 0.11039900779724121,
+            "avg_inference_time_ms": 0.002313953961512839
+          }
+        ]
+      }
+    },
+    "ta49": {
+      "SPT": {
+        "heuristic": "SPT",
+        "instance": "ta49",
+        "episodes": 10,
+        "stats": {
+          "makespan": {
+            "mean": 2666.0,
+            "std": 0.0,
+            "min": 2666.0,
+            "max": 2666.0
+          },
+          "reward": {
+            "mean": -25.95585858585863,
+            "std": 3.552713678800501e-15,
+            "min": -25.955858585858632,
+            "max": -25.955858585858632
+          },
+          "steps": {
+            "mean": 787.0,
+            "std": 0.0,
+            "min": 787,
+            "max": 787
+          },
+          "success_rate": 1.0,
+          "runtime": {
+            "mean": 0.11719701290130616,
+            "total": 1.1719701290130615
+          },
+          "inference_time": {
+            "mean_ms": 0.0053519669451586325,
+            "std_ms": 0.005643098855044429,
+            "min_ms": 0.0007152557373046875,
+            "max_ms": 0.1537799835205078,
+            "total_actions": 7870
+          }
+        },
+        "episode_results": [
+          {
+            "episode": 0,
+            "reward": -25.955858585858632,
+            "steps": 787,
+            "makespan": 2666.0,
+            "success": true,
+            "time": 0.11803913116455078,
+            "avg_inference_time_ms": 0.00557814650190225
+          },
+          {
+            "episode": 1,
+            "reward": -25.955858585858632,
+            "steps": 787,
+            "makespan": 2666.0,
+            "success": true,
+            "time": 0.1176760196685791,
+            "avg_inference_time_ms": 0.005505439438389702
+          },
+          {
+            "episode": 2,
+            "reward": -25.955858585858632,
+            "steps": 787,
+            "makespan": 2666.0,
+            "success": true,
+            "time": 0.11475801467895508,
+            "avg_inference_time_ms": 0.005034358256047987
+          },
+          {
+            "episode": 3,
+            "reward": -25.955858585858632,
+            "steps": 787,
+            "makespan": 2666.0,
+            "success": true,
+            "time": 0.1164097785949707,
+            "avg_inference_time_ms": 0.005056776267297689
+          },
+          {
+            "episode": 4,
+            "reward": -25.955858585858632,
+            "steps": 787,
+            "makespan": 2666.0,
+            "success": true,
+            "time": 0.11761093139648438,
+            "avg_inference_time_ms": 0.005481203750552186
+          },
+          {
+            "episode": 5,
+            "reward": -25.955858585858632,
+            "steps": 787,
+            "makespan": 2666.0,
+            "success": true,
+            "time": 0.12245297431945801,
+            "avg_inference_time_ms": 0.0061110286882296305
+          },
+          {
+            "episode": 6,
+            "reward": -25.955858585858632,
+            "steps": 787,
+            "makespan": 2666.0,
+            "success": true,
+            "time": 0.11481428146362305,
+            "avg_inference_time_ms": 0.004926206499073072
+          },
+          {
+            "episode": 7,
+            "reward": -25.955858585858632,
+            "steps": 787,
+            "makespan": 2666.0,
+            "success": true,
+            "time": 0.11802983283996582,
+            "avg_inference_time_ms": 0.005321854103020519
+          },
+          {
+            "episode": 8,
+            "reward": -25.955858585858632,
+            "steps": 787,
+            "makespan": 2666.0,
+            "success": true,
+            "time": 0.11510515213012695,
+            "avg_inference_time_ms": 0.005293377169811438
+          },
+          {
+            "episode": 9,
+            "reward": -25.955858585858632,
+            "steps": 787,
+            "makespan": 2666.0,
+            "success": true,
+            "time": 0.11707401275634766,
+            "avg_inference_time_ms": 0.005211278777261853
+          }
+        ]
+      },
+      "LPT": {
+        "heuristic": "LPT",
+        "instance": "ta49",
+        "episodes": 10,
+        "stats": {
+          "makespan": {
+            "mean": 3032.0,
+            "std": 0.0,
+            "min": 3032.0,
+            "max": 3032.0
+          },
+          "reward": {
+            "mean": -29.649595959596024,
+            "std": 0.0,
+            "min": -29.649595959596024,
+            "max": -29.649595959596024
+          },
+          "steps": {
+            "mean": 773.0,
+            "std": 0.0,
+            "min": 773,
+            "max": 773
+          },
+          "success_rate": 1.0,
+          "runtime": {
+            "mean": 0.11608748435974121,
+            "total": 1.160874843597412
+          },
+          "inference_time": {
+            "mean_ms": 0.004186574731113685,
+            "std_ms": 0.004204640416509027,
+            "min_ms": 0.0007152557373046875,
+            "max_ms": 0.09918212890625,
+            "total_actions": 7730
+          }
+        },
+        "episode_results": [
+          {
+            "episode": 0,
+            "reward": -29.649595959596024,
+            "steps": 773,
+            "makespan": 3032.0,
+            "success": true,
+            "time": 0.11509203910827637,
+            "avg_inference_time_ms": 0.004104315694831167
+          },
+          {
+            "episode": 1,
+            "reward": -29.649595959596024,
+            "steps": 773,
+            "makespan": 3032.0,
+            "success": true,
+            "time": 0.1221158504486084,
+            "avg_inference_time_ms": 0.004560487853293277
+          },
+          {
+            "episode": 2,
+            "reward": -29.649595959596024,
+            "steps": 773,
+            "makespan": 3032.0,
+            "success": true,
+            "time": 0.11691904067993164,
+            "avg_inference_time_ms": 0.004075014575795399
+          },
+          {
+            "episode": 3,
+            "reward": -29.649595959596024,
+            "steps": 773,
+            "makespan": 3032.0,
+            "success": true,
+            "time": 0.11687898635864258,
+            "avg_inference_time_ms": 0.004083342262258196
+          },
+          {
+            "episode": 4,
+            "reward": -29.649595959596024,
+            "steps": 773,
+            "makespan": 3032.0,
+            "success": true,
+            "time": 0.11495780944824219,
+            "avg_inference_time_ms": 0.004155515544935771
+          },
+          {
+            "episode": 5,
+            "reward": -29.649595959596024,
+            "steps": 773,
+            "makespan": 3032.0,
+            "success": true,
+            "time": 0.1156620979309082,
+            "avg_inference_time_ms": 0.004277346513558175
+          },
+          {
+            "episode": 6,
+            "reward": -29.649595959596024,
+            "steps": 773,
+            "makespan": 3032.0,
+            "success": true,
+            "time": 0.11436796188354492,
+            "avg_inference_time_ms": 0.0041101759186383206
+          },
+          {
+            "episode": 7,
+            "reward": -29.649595959596024,
+            "steps": 773,
+            "makespan": 3032.0,
+            "success": true,
+            "time": 0.11515498161315918,
+            "avg_inference_time_ms": 0.003981250994880943
+          },
+          {
+            "episode": 8,
+            "reward": -29.649595959596024,
+            "steps": 773,
+            "makespan": 3032.0,
+            "success": true,
+            "time": 0.11401104927062988,
+            "avg_inference_time_ms": 0.004148113156968842
+          },
+          {
+            "episode": 9,
+            "reward": -29.649595959596024,
+            "steps": 773,
+            "makespan": 3032.0,
+            "success": true,
+            "time": 0.11571502685546875,
+            "avg_inference_time_ms": 0.004370184795976765
+          }
+        ]
+      },
+      "FIFO": {
+        "heuristic": "FIFO",
+        "instance": "ta49",
+        "episodes": 10,
+        "stats": {
+          "makespan": {
+            "mean": 2859.0,
+            "std": 0.0,
+            "min": 2859.0,
+            "max": 2859.0
+          },
+          "reward": {
+            "mean": -27.90323232323238,
+            "std": 3.552713678800501e-15,
+            "min": -27.903232323232377,
+            "max": -27.903232323232377
+          },
+          "steps": {
+            "mean": 782.0,
+            "std": 0.0,
+            "min": 782,
+            "max": 782
+          },
+          "success_rate": 1.0,
+          "runtime": {
+            "mean": 0.11988201141357421,
+            "total": 1.1988201141357422
+          },
+          "inference_time": {
+            "mean_ms": 0.0027915400922145987,
+            "std_ms": 0.004059358294744553,
+            "min_ms": 0.0007152557373046875,
+            "max_ms": 0.09703636169433594,
+            "total_actions": 7820
+          }
+        },
+        "episode_results": [
+          {
+            "episode": 0,
+            "reward": -27.903232323232377,
+            "steps": 782,
+            "makespan": 2859.0,
+            "success": true,
+            "time": 0.11399507522583008,
+            "avg_inference_time_ms": 0.0025201636507078207
+          },
+          {
+            "episode": 1,
+            "reward": -27.903232323232377,
+            "steps": 782,
+            "makespan": 2859.0,
+            "success": true,
+            "time": 0.11346101760864258,
+            "avg_inference_time_ms": 0.0023991250625961576
+          },
+          {
+            "episode": 2,
+            "reward": -27.903232323232377,
+            "steps": 782,
+            "makespan": 2859.0,
+            "success": true,
+            "time": 0.1175680160522461,
+            "avg_inference_time_ms": 0.0027405941272940475
+          },
+          {
+            "episode": 3,
+            "reward": -27.903232323232377,
+            "steps": 782,
+            "makespan": 2859.0,
+            "success": true,
+            "time": 0.1198430061340332,
+            "avg_inference_time_ms": 0.0027963877334009355
+          },
+          {
+            "episode": 4,
+            "reward": -27.903232323232377,
+            "steps": 782,
+            "makespan": 2859.0,
+            "success": true,
+            "time": 0.12550902366638184,
+            "avg_inference_time_ms": 0.0028192539654119547
+          },
+          {
+            "episode": 5,
+            "reward": -27.903232323232377,
+            "steps": 782,
+            "makespan": 2859.0,
+            "success": true,
+            "time": 0.13768911361694336,
+            "avg_inference_time_ms": 0.0037104272476547514
+          },
+          {
+            "episode": 6,
+            "reward": -27.903232323232377,
+            "steps": 782,
+            "makespan": 2859.0,
+            "success": true,
+            "time": 0.1258258819580078,
+            "avg_inference_time_ms": 0.00330859133044777
+          },
+          {
+            "episode": 7,
+            "reward": -27.903232323232377,
+            "steps": 782,
+            "makespan": 2859.0,
+            "success": true,
+            "time": 0.1163179874420166,
+            "avg_inference_time_ms": 0.0026283971488933124
+          },
+          {
+            "episode": 8,
+            "reward": -27.903232323232377,
+            "steps": 782,
+            "makespan": 2859.0,
+            "success": true,
+            "time": 0.1147611141204834,
+            "avg_inference_time_ms": 0.0025344931561013927
+          },
+          {
+            "episode": 9,
+            "reward": -27.903232323232377,
+            "steps": 782,
+            "makespan": 2859.0,
+            "success": true,
+            "time": 0.11384987831115723,
+            "avg_inference_time_ms": 0.0024579674996378477
+          }
+        ]
+      }
+    },
+    "ta50": {
+      "SPT": {
+        "heuristic": "SPT",
+        "instance": "ta50",
+        "episodes": 10,
+        "stats": {
+          "makespan": {
+            "mean": 2429.0,
+            "std": 0.0,
+            "min": 2429.0,
+            "max": 2429.0
+          },
+          "reward": {
+            "mean": -23.56000000000008,
+            "std": 0.0,
+            "min": -23.56000000000008,
+            "max": -23.56000000000008
+          },
+          "steps": {
+            "mean": 778.0,
+            "std": 0.0,
+            "min": 778,
+            "max": 778
+          },
+          "success_rate": 1.0,
+          "runtime": {
+            "mean": 0.12105531692504883,
+            "total": 1.2105531692504883
+          },
+          "inference_time": {
+            "mean_ms": 0.005516417535227798,
+            "std_ms": 0.005955037120086007,
+            "min_ms": 0.0007152557373046875,
+            "max_ms": 0.14901161193847656,
+            "total_actions": 7780
+          }
+        },
+        "episode_results": [
+          {
+            "episode": 0,
+            "reward": -23.56000000000008,
+            "steps": 778,
+            "makespan": 2429.0,
+            "success": true,
+            "time": 0.122161865234375,
+            "avg_inference_time_ms": 0.005567901238684177
+          },
+          {
+            "episode": 1,
+            "reward": -23.56000000000008,
+            "steps": 778,
+            "makespan": 2429.0,
+            "success": true,
+            "time": 0.11881089210510254,
+            "avg_inference_time_ms": 0.005170434789976301
+          },
+          {
+            "episode": 2,
+            "reward": -23.56000000000008,
+            "steps": 778,
+            "makespan": 2429.0,
+            "success": true,
+            "time": 0.11736512184143066,
+            "avg_inference_time_ms": 0.005290563431374518
+          },
+          {
+            "episode": 3,
+            "reward": -23.56000000000008,
+            "steps": 778,
+            "makespan": 2429.0,
+            "success": true,
+            "time": 0.1188819408416748,
+            "avg_inference_time_ms": 0.005190966981235691
+          },
+          {
+            "episode": 4,
+            "reward": -23.56000000000008,
+            "steps": 778,
+            "makespan": 2429.0,
+            "success": true,
+            "time": 0.12122416496276855,
+            "avg_inference_time_ms": 0.005411304974004358
+          },
+          {
+            "episode": 5,
+            "reward": -23.56000000000008,
+            "steps": 778,
+            "makespan": 2429.0,
+            "success": true,
+            "time": 0.11780095100402832,
+            "avg_inference_time_ms": 0.0052639022277988935
+          },
+          {
+            "episode": 6,
+            "reward": -23.56000000000008,
+            "steps": 778,
+            "makespan": 2429.0,
+            "success": true,
+            "time": 0.11783123016357422,
+            "avg_inference_time_ms": 0.00499943534635333
+          },
+          {
+            "episode": 7,
+            "reward": -23.56000000000008,
+            "steps": 778,
+            "makespan": 2429.0,
+            "success": true,
+            "time": 0.12569808959960938,
+            "avg_inference_time_ms": 0.006056383520288149
+          },
+          {
+            "episode": 8,
+            "reward": -23.56000000000008,
+            "steps": 778,
+            "makespan": 2429.0,
+            "success": true,
+            "time": 0.1235818862915039,
+            "avg_inference_time_ms": 0.00607906086585822
+          },
+          {
+            "episode": 9,
+            "reward": -23.56000000000008,
+            "steps": 778,
+            "makespan": 2429.0,
+            "success": true,
+            "time": 0.1271970272064209,
+            "avg_inference_time_ms": 0.006134221976704339
+          }
+        ]
+      },
+      "LPT": {
+        "heuristic": "LPT",
+        "instance": "ta50",
+        "episodes": 10,
+        "stats": {
+          "makespan": {
+            "mean": 2701.0,
+            "std": 0.0,
+            "min": 2701.0,
+            "max": 2701.0
+          },
+          "reward": {
+            "mean": -26.307373737373798,
+            "std": 0.0,
+            "min": -26.307373737373798,
+            "max": -26.307373737373798
+          },
+          "steps": {
+            "mean": 785.0,
+            "std": 0.0,
+            "min": 785,
+            "max": 785
+          },
+          "success_rate": 1.0,
+          "runtime": {
+            "mean": 0.12079012393951416,
+            "total": 1.2079012393951416
+          },
+          "inference_time": {
+            "mean_ms": 0.004219522901401398,
+            "std_ms": 0.00482996328986146,
+            "min_ms": 0.0007152557373046875,
+            "max_ms": 0.1220703125,
+            "total_actions": 7850
+          }
+        },
+        "episode_results": [
+          {
+            "episode": 0,
+            "reward": -26.307373737373798,
+            "steps": 785,
+            "makespan": 2701.0,
+            "success": true,
+            "time": 0.1199791431427002,
+            "avg_inference_time_ms": 0.00393618443968949
+          },
+          {
+            "episode": 1,
+            "reward": -26.307373737373798,
+            "steps": 785,
+            "makespan": 2701.0,
+            "success": true,
+            "time": 0.11897492408752441,
+            "avg_inference_time_ms": 0.004225020196027817
+          },
+          {
+            "episode": 2,
+            "reward": -26.307373737373798,
+            "steps": 785,
+            "makespan": 2701.0,
+            "success": true,
+            "time": 0.11783313751220703,
+            "avg_inference_time_ms": 0.004009684179998507
+          },
+          {
+            "episode": 3,
+            "reward": -26.307373737373798,
+            "steps": 785,
+            "makespan": 2701.0,
+            "success": true,
+            "time": 0.11726999282836914,
+            "avg_inference_time_ms": 0.003952585208188197
+          },
+          {
+            "episode": 4,
+            "reward": -26.307373737373798,
+            "steps": 785,
+            "makespan": 2701.0,
+            "success": true,
+            "time": 0.13862991333007812,
+            "avg_inference_time_ms": 0.005556823341709793
+          },
+          {
+            "episode": 5,
+            "reward": -26.307373737373798,
+            "steps": 785,
+            "makespan": 2701.0,
+            "success": true,
+            "time": 0.12296867370605469,
+            "avg_inference_time_ms": 0.004255391989543939
+          },
+          {
+            "episode": 6,
+            "reward": -26.307373737373798,
+            "steps": 785,
+            "makespan": 2701.0,
+            "success": true,
+            "time": 0.11884474754333496,
+            "avg_inference_time_ms": 0.0040181882821830215
+          },
+          {
+            "episode": 7,
+            "reward": -26.307373737373798,
+            "steps": 785,
+            "makespan": 2701.0,
+            "success": true,
+            "time": 0.11706304550170898,
+            "avg_inference_time_ms": 0.003986905334861415
+          },
+          {
+            "episode": 8,
+            "reward": -26.307373737373798,
+            "steps": 785,
+            "makespan": 2701.0,
+            "success": true,
+            "time": 0.11702966690063477,
+            "avg_inference_time_ms": 0.004095940073584295
+          },
+          {
+            "episode": 9,
+            "reward": -26.307373737373798,
+            "steps": 785,
+            "makespan": 2701.0,
+            "success": true,
+            "time": 0.1193079948425293,
+            "avg_inference_time_ms": 0.0041585059682275076
+          }
+        ]
+      },
+      "FIFO": {
+        "heuristic": "FIFO",
+        "instance": "ta50",
+        "episodes": 10,
+        "stats": {
+          "makespan": {
+            "mean": 2737.0,
+            "std": 0.0,
+            "min": 2737.0,
+            "max": 2737.0
+          },
+          "reward": {
+            "mean": -26.67090909090914,
+            "std": 3.552713678800501e-15,
+            "min": -26.670909090909138,
+            "max": -26.670909090909138
+          },
+          "steps": {
+            "mean": 782.0,
+            "std": 0.0,
+            "min": 782,
+            "max": 782
+          },
+          "success_rate": 1.0,
+          "runtime": {
+            "mean": 0.11946449279785157,
+            "total": 1.1946449279785156
+          },
+          "inference_time": {
+            "mean_ms": 0.0026601964555433033,
+            "std_ms": 0.0037311286515043568,
+            "min_ms": 0.0007152557373046875,
+            "max_ms": 0.10895729064941406,
+            "total_actions": 7820
+          }
+        },
+        "episode_results": [
+          {
+            "episode": 0,
+            "reward": -26.670909090909138,
+            "steps": 782,
+            "makespan": 2737.0,
+            "success": true,
+            "time": 0.11459684371948242,
+            "avg_inference_time_ms": 0.002470467706470538
+          },
+          {
+            "episode": 1,
+            "reward": -26.670909090909138,
+            "steps": 782,
+            "makespan": 2737.0,
+            "success": true,
+            "time": 0.11650395393371582,
+            "avg_inference_time_ms": 0.0023448558719566717
+          },
+          {
+            "episode": 2,
+            "reward": -26.670909090909138,
+            "steps": 782,
+            "makespan": 2737.0,
+            "success": true,
+            "time": 0.11829280853271484,
+            "avg_inference_time_ms": 0.0027994365643357376
+          },
+          {
+            "episode": 3,
+            "reward": -26.670909090909138,
+            "steps": 782,
+            "makespan": 2737.0,
+            "success": true,
+            "time": 0.1419210433959961,
+            "avg_inference_time_ms": 0.003558900350195063
+          },
+          {
+            "episode": 4,
+            "reward": -26.670909090909138,
+            "steps": 782,
+            "makespan": 2737.0,
+            "success": true,
+            "time": 0.11623811721801758,
+            "avg_inference_time_ms": 0.0024649798107878934
+          },
+          {
+            "episode": 5,
+            "reward": -26.670909090909138,
+            "steps": 782,
+            "makespan": 2737.0,
+            "success": true,
+            "time": 0.11687111854553223,
+            "avg_inference_time_ms": 0.0026790077424110356
+          },
+          {
+            "episode": 6,
+            "reward": -26.670909090909138,
+            "steps": 782,
+            "makespan": 2737.0,
+            "success": true,
+            "time": 0.1218869686126709,
+            "avg_inference_time_ms": 0.0028674254941818355
+          },
+          {
+            "episode": 7,
+            "reward": -26.670909090909138,
+            "steps": 782,
+            "makespan": 2737.0,
+            "success": true,
+            "time": 0.11628508567810059,
+            "avg_inference_time_ms": 0.002514980638118656
+          },
+          {
+            "episode": 8,
+            "reward": -26.670909090909138,
+            "steps": 782,
+            "makespan": 2737.0,
+            "success": true,
+            "time": 0.1154329776763916,
+            "avg_inference_time_ms": 0.0023753441813046975
+          },
+          {
+            "episode": 9,
+            "reward": -26.670909090909138,
+            "steps": 782,
+            "makespan": 2737.0,
+            "success": true,
+            "time": 0.11661601066589355,
+            "avg_inference_time_ms": 0.0025265661956709057
+          }
+        ]
+      }
+    }
+  },
+  "category_summary": {
+    "SPT": {
+      "makespan_mean": 2600.4,
+      "makespan_std": 88.18752746278807,
+      "success_rate_mean": 100.0,
+      "success_rate_std": 0.0,
+      "inference_time_mean": 0.005703928473535711,
+      "inference_time_std": 0.0006613245437953911
+    },
+    "LPT": {
+      "makespan_mean": 2921.0,
+      "makespan_std": 118.18290908587417,
+      "success_rate_mean": 100.0,
+      "success_rate_std": 0.0,
+      "inference_time_mean": 0.0041642982153319045,
+      "inference_time_std": 3.586943706219207e-05
+    },
+    "FIFO": {
+      "makespan_mean": 2840.4,
+      "makespan_std": 227.76443971788046,
+      "success_rate_mean": 100.0,
+      "success_rate_std": 0.0,
+      "inference_time_mean": 0.0025489534520955234,
+      "inference_time_std": 0.0001539884843558363
+    }
+  }
+}

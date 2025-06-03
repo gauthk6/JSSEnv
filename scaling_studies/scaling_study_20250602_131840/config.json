@@ -1,0 +1,34 @@
+{
+  "study_name": "scaling_study",
+  "timesteps_per_size": 2000000,
+  "eval_episodes": 10,
+  "sizes_included": [
+    "20x20_medium"
+  ],
+  "instance_groups": {
+    "20x20_medium": {
+      "train": [
+        "ta21",
+        "ta22",
+        "ta23",
+        "ta24",
+        "ta25"
+      ],
+      "test": [
+        "ta26",
+        "ta27",
+        "ta28",
+        "ta29",
+        "ta30"
+      ],
+      "size": "20x20",
+      "jobs": 20,
+      "machines": 20,
+      "search_space_approx": "20^20"
+    }
+  },
+  "timestamp": "2025-06-02T13:18:40.995263",
+  "max_steps_by_size": {
+    "20x20_medium": 3000
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "size_category": "very_large",
+  "category_info": {
+    "name": "50x20_very_large",
+    "test_instances": [
+      "ta66",
+      "ta67",
+      "ta68",
+      "ta69",
+      "ta70"
+    ],
+    "jobs": 50,
+    "machines": 20
+  },
+  "model_path": "scaling_studies/scaling_study_20250602_114133/models/50x20_very_large/model.pt",
+  "episodes_per_instance": 10,
+  "total_instances": 5,
+  "total_episodes": 50,
+  "evaluation_time": 42.5545871257782,
+  "individual_results": {
+    "ta66": {
+      "instance": "ta66",
+      "episodes": 10,
+      "stats": {
+        "returns": {
+          "mean": -44.24138383838393,
+          "std": 0.7111298968047819,
+          "min": -45.21444444444457,
+          "max": -42.74474747474751
+        },
+        "lengths": {
+          "mean": 1925.1,
+          "std": 17.149052451957807,
+          "min": 1885,
+          "max": 1950
+        },
+        "inference_time": {
+          "mean_ms": 0.19247162454153408,
+          "std_ms": 0.05547850953040279,
+          "total_actions": 19251
+        },
+        "makespans": {
+          "mean": 4468.5,
+          "std": 70.43614129124337,
+          "min": 4320.0,
+          "max": 4565.0
+        },
+        "success_rate": 1.0
+      }
+    },
+    "ta67": {
+      "instance": "ta67",
+      "episodes": 10,
+      "stats": {
+        "returns": {
+          "mean": -43.077050505050536,
+          "std": 0.8853149049752184,
+          "min": -44.469898989899,
+          "max": -41.51868686868704
+        },
+        "lengths": {
+          "mean": 1936.0,
+          "std": 8.402380615040002,
+          "min": 1920,
+          "max": 1949
+        },
+        "inference_time": {
+          "mean_ms": 0.21558439682337863,
+          "std_ms": 0.32334480403420207,
+          "total_actions": 19360
+        },
+        "makespans": {
+          "mean": 4353.1,
+          "std": 87.64981460334072,
+          "min": 4199.0,
+          "max": 4491.0
+        },
+        "success_rate": 1.0
+      }
+    },
+    "ta68": {
+      "instance": "ta68",
+      "episodes": 10,
+      "stats": {
+        "returns": {
+          "mean": -43.73867676767672,
+          "std": 1.5673890111631825,
+          "min": -45.600101010100914,
+          "max": -41.282929292929225
+        },
+        "lengths": {
+          "mean": 1923.9,
+          "std": 17.334647386087784,
+          "min": 1899,
+          "max": 1952
+        },
+        "inference_time": {
+          "mean_ms": 0.1918935956686783,
+          "std_ms": 0.055839742490935575,
+          "total_actions": 19239
+        },
+        "makespans": {
+          "mean": 4418.7,
+          "std": 155.06711450207615,
+          "min": 4176.0,
+          "max": 4603.0
+        },
+        "success_rate": 1.0
+      }
+    },
+    "ta69": {
+      "instance": "ta69",
+      "episodes": 10,
+      "stats": {
+        "returns": {
+          "mean": -44.40840404040419,
+          "std": 1.0282188166458666,
+          "min": -46.04525252525266,
+          "max": -42.974040404040565
+        },
+        "lengths": {
+          "mean": 1924.3,
+          "std": 9.529428104561154,
+          "min": 1910,
+          "max": 1939
+        },
+        "inference_time": {
+          "mean_ms": 0.1930752260449683,
+          "std_ms": 0.05639623970150313,
+          "total_actions": 19243
+        },
+        "makespans": {
+          "mean": 4485.1,
+          "std": 101.8434583073454,
+          "min": 4343.0,
+          "max": 4647.0
+        },
+        "success_rate": 1.0
+      }
+    },
+    "ta70": {
+      "instance": "ta70",
+      "episodes": 10,
+      "stats": {
+        "returns": {
+          "mean": -46.99733333333343,
+          "std": 2.3740217255863105,
+          "min": -51.39696969696976,
+          "max": -43.901818181818214
+        },
+        "lengths": {
+          "mean": 1938.2,
+          "std": 15.784802817900513,
+          "min": 1912,
+          "max": 1964
+        },
+        "inference_time": {
+          "mean_ms": 0.19383809352705886,
+          "std_ms": 0.05853698923995371,
+          "total_actions": 19382
+        },
+        "makespans": {
+          "mean": 4741.2,
+          "std": 235.04586786412563,
+          "min": 4435.0,
+          "max": 5177.0
+        },
+        "success_rate": 1.0
+      }
+    }
+  },
+  "aggregated_stats": {
+    "returns": {
+      "mean": -44.49256969696976,
+      "std": 1.335370225733527,
+      "min": -46.99733333333343,
+      "max": -43.077050505050536
+    },
+    "lengths": {
+      "mean": 1929.5,
+      "std": 6.256196927846838,
+      "min": 1923.9,
+      "max": 1938.2
+    },
+    "inference_time": {
+      "mean_ms": 0.19737258732112362,
+      "std_ms": 0.009128732128384477,
+      "min_ms": 0.1918935956686783,
+      "max_ms": 0.21558439682337863
+    },
+    "makespans": {
+      "mean": 4493.320000000001,
+      "std": 132.18009532452294,
+      "min": 4353.1,
+      "max": 4741.2
+    },
+    "success_rate": {
+      "mean": 1.0,
+      "std": 0.0,
+      "min": 1.0,
+      "max": 1.0
+    }
+  }
+}

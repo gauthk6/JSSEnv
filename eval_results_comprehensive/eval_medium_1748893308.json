@@ -1,0 +1,204 @@
+{
+  "size_category": "medium",
+  "category_info": {
+    "name": "20x20_medium",
+    "test_instances": [
+      "ta26",
+      "ta27",
+      "ta28",
+      "ta29",
+      "ta30"
+    ],
+    "jobs": 20,
+    "machines": 20
+  },
+  "model_path": "scaling_studies/scaling_study_20250602_104439/models/20x20_medium/model.pt",
+  "episodes_per_instance": 10,
+  "total_instances": 5,
+  "total_episodes": 50,
+  "evaluation_time": 13.964860200881958,
+  "individual_results": {
+    "ta26": {
+      "instance": "ta26",
+      "episodes": 10,
+      "stats": {
+        "returns": {
+          "mean": -22.45240404040407,
+          "std": 0.9807628902820412,
+          "min": -24.110101010101005,
+          "max": -20.958686868686883
+        },
+        "lengths": {
+          "mean": 756.8,
+          "std": 7.947326594522211,
+          "min": 741,
+          "max": 770
+        },
+        "inference_time": {
+          "mean_ms": 0.22663900640499768,
+          "std_ms": 0.7226464850756333,
+          "total_actions": 7568
+        },
+        "makespans": {
+          "mean": 2317.9,
+          "std": 97.1024716472243,
+          "min": 2170.0,
+          "max": 2482.0
+        },
+        "success_rate": 1.0
+      }
+    },
+    "ta27": {
+      "instance": "ta27",
+      "episodes": 10,
+      "stats": {
+        "returns": {
+          "mean": -24.558848484848493,
+          "std": 1.5696333516741658,
+          "min": -27.847272727272735,
+          "max": -22.605454545454553
+        },
+        "lengths": {
+          "mean": 761.7,
+          "std": 4.920365840057018,
+          "min": 750,
+          "max": 768
+        },
+        "inference_time": {
+          "mean_ms": 0.2133199920393874,
+          "std_ms": 0.058603339163152315,
+          "total_actions": 7617
+        },
+        "makespans": {
+          "mean": 2526.4,
+          "std": 155.3944657959221,
+          "min": 2333.0,
+          "max": 2852.0
+        },
+        "success_rate": 1.0
+      }
+    },
+    "ta28": {
+      "instance": "ta28",
+      "episodes": 10,
+      "stats": {
+        "returns": {
+          "mean": -23.014404040404067,
+          "std": 1.0004774670757512,
+          "min": -24.553636363636425,
+          "max": -20.79797979797984
+        },
+        "lengths": {
+          "mean": 760.0,
+          "std": 4.049691346263317,
+          "min": 751,
+          "max": 767
+        },
+        "inference_time": {
+          "mean_ms": 0.21349953977685227,
+          "std_ms": 0.061646569079798666,
+          "total_actions": 7600
+        },
+        "makespans": {
+          "mean": 2373.5,
+          "std": 99.095156289296,
+          "min": 2154.0,
+          "max": 2526.0
+        },
+        "success_rate": 1.0
+      }
+    },
+    "ta29": {
+      "instance": "ta29",
+      "episodes": 10,
+      "stats": {
+        "returns": {
+          "mean": -24.276434343434346,
+          "std": 0.6263270332635071,
+          "min": -25.26040404040405,
+          "max": -22.959090909090918
+        },
+        "lengths": {
+          "mean": 758.2,
+          "std": 5.134199061197375,
+          "min": 746,
+          "max": 764
+        },
+        "inference_time": {
+          "mean_ms": 0.2158160135444756,
+          "std_ms": 0.06362260961829624,
+          "total_actions": 7582
+        },
+        "makespans": {
+          "mean": 2498.5,
+          "std": 62.01491756021288,
+          "min": 2368.0,
+          "max": 2596.0
+        },
+        "success_rate": 1.0
+      }
+    },
+    "ta30": {
+      "instance": "ta30",
+      "episodes": 10,
+      "stats": {
+        "returns": {
+          "mean": -22.74301010101012,
+          "std": 0.8871712511657476,
+          "min": -23.677676767676793,
+          "max": -21.081010101010136
+        },
+        "lengths": {
+          "mean": 764.5,
+          "std": 8.0156097709407,
+          "min": 752,
+          "max": 774
+        },
+        "inference_time": {
+          "mean_ms": 0.22302943167926595,
+          "std_ms": 0.5390312838825694,
+          "total_actions": 7645
+        },
+        "makespans": {
+          "mean": 2346.6,
+          "std": 87.82391473852665,
+          "min": 2182.0,
+          "max": 2439.0
+        },
+        "success_rate": 1.0
+      }
+    }
+  },
+  "aggregated_stats": {
+    "returns": {
+      "mean": -23.40902020202022,
+      "std": 0.8472211308788735,
+      "min": -24.558848484848493,
+      "max": -22.45240404040407
+    },
+    "lengths": {
+      "mean": 760.24,
+      "std": 2.695626086830303,
+      "min": 756.8,
+      "max": 764.5
+    },
+    "inference_time": {
+      "mean_ms": 0.21846079668899582,
+      "std_ms": 0.0053998585223780406,
+      "min_ms": 0.2133199920393874,
+      "max_ms": 0.22663900640499768
+    },
+    "makespans": {
+      "mean": 2412.58,
+      "std": 83.883428637604,
+      "min": 2317.9,
+      "max": 2526.4
+    },
+    "success_rate": {
+      "mean": 1.0,
+      "std": 0.0,
+      "min": 1.0,
+      "max": 1.0
+    }
+  }
+}

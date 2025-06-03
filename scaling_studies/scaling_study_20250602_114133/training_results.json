@@ -1,0 +1,20 @@
+{
+  "20x15_medium_large": {
+    "status": "success",
+    "training_time": 1010.9018669128418,
+    "model_path": "scaling_studies/scaling_study_20250602_114133/models/20x15_medium_large/model.pt",
+    "max_episode_steps": 3000
+  },
+  "50x15_large": {
+    "status": "success",
+    "training_time": 1149.8653178215027,
+    "model_path": "scaling_studies/scaling_study_20250602_114133/models/50x15_large/model.pt",
+    "max_episode_steps": 3000
+  },
+  "50x20_very_large": {
+    "status": "success",
+    "training_time": 973.288428068161,
+    "model_path": "scaling_studies/scaling_study_20250602_114133/models/50x20_very_large/model.pt",
+    "max_episode_steps": 3000
+  }
+}

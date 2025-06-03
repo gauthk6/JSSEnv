@@ -1,0 +1,34 @@
+{
+  "study_name": "scaling_study",
+  "timesteps_per_size": 3000000,
+  "eval_episodes": 10,
+  "sizes_included": [
+    "50x15_large"
+  ],
+  "instance_groups": {
+    "50x15_large": {
+      "train": [
+        "ta51",
+        "ta52",
+        "ta53",
+        "ta54",
+        "ta55"
+      ],
+      "test": [
+        "ta56",
+        "ta57",
+        "ta58",
+        "ta59",
+        "ta60"
+      ],
+      "size": "50x15",
+      "jobs": 50,
+      "machines": 15,
+      "search_space_approx": "15^50"
+    }
+  },
+  "timestamp": "2025-06-02T13:19:04.763497",
+  "max_steps_by_size": {
+    "50x15_large": 3000
+  }
+}

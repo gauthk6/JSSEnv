@@ -1,0 +1,8 @@
+{
+  "50x20_very_large": {
+    "status": "success",
+    "training_time": 5134.512256860733,
+    "model_path": "scaling_studies/scaling_study_20250602_132701/models/50x20_very_large/model.pt",
+    "max_episode_steps": 3000
+  }
+}

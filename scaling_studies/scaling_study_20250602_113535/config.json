@@ -1,0 +1,78 @@
+{
+  "study_name": "scaling_study",
+  "timesteps_per_size": 1000000,
+  "eval_episodes": 30,
+  "sizes_included": [
+    "20x15_medium_large",
+    "50x15_large",
+    "50x20_very_large"
+  ],
+  "instance_groups": {
+    "20x15_medium_large": {
+      "train": [
+        "ta41",
+        "ta42",
+        "ta43",
+        "ta44",
+        "ta45"
+      ],
+      "test": [
+        "ta46",
+        "ta47",
+        "ta48",
+        "ta49",
+        "ta50"
+      ],
+      "size": "20x15",
+      "jobs": 20,
+      "machines": 15,
+      "search_space_approx": "15^20"
+    },
+    "50x15_large": {
+      "train": [
+        "ta51",
+        "ta52",
+        "ta53",
+        "ta54",
+        "ta55"
+      ],
+      "test": [
+        "ta56",
+        "ta57",
+        "ta58",
+        "ta59",
+        "ta60"
+      ],
+      "size": "50x15",
+      "jobs": 50,
+      "machines": 15,
+      "search_space_approx": "15^50"
+    },
+    "50x20_very_large": {
+      "train": [
+        "ta61",
+        "ta62",
+        "ta63",
+        "ta64",
+        "ta65"
+      ],
+      "test": [
+        "ta66",
+        "ta67",
+        "ta68",
+        "ta69",
+        "ta70"
+      ],
+      "size": "50x20",
+      "jobs": 50,
+      "machines": 20,
+      "search_space_approx": "20^50"
+    }
+  },
+  "timestamp": "2025-06-02T11:35:35.567294",
+  "max_steps_by_size": {
+    "20x15_medium_large": 2400,
+    "50x15_large": 2400,
+    "50x20_very_large": 2400
+  }
+}

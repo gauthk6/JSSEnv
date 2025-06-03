@@ -73,22 +73,28 @@ def parse_args():
         help="the maximum norm for the gradient clipping")
     parser.add_argument("--target-kl", type=float, default=None,
         help="the target KL divergence threshold")
+    
+    # Environment configuration
+    parser.add_argument("--max-episode-steps", type=int, default=None,
+        help="maximum number of steps per episode (overrides default environment limit)")
+    
     args = parser.parse_args()
     args.batch_size = int(args.num_envs * args.num_steps)
     args.minibatch_size = int(args.batch_size // args.num_minibatches)
     return args
 
-def make_env_multi_instance(env_id, seed, idx, capture_video, run_name, train_instances):
+def make_env_multi_instance(env_id, seed, idx, capture_video, run_name, train_instances, max_episode_steps=None):
     def thunk():
         project_root = os.path.dirname(os.path.abspath(__file__))
         
         # Create a custom wrapper that changes instance on each reset
         class MultiInstanceWrapper(gym.Wrapper):
-            def __init__(self, env_id, train_instances, project_root):
+            def __init__(self, env_id, train_instances, project_root, max_episode_steps=None):
                 self.env_id = env_id
                 self.train_instances = train_instances
                 self.project_root = project_root
                 self.current_instance = None
+                self.max_episode_steps = max_episode_steps
                 
                 # Initialize with first instance
                 self._create_env()
@@ -107,7 +113,14 @@ def make_env_multi_instance(env_id, seed, idx, capture_video, run_name, train_in
                     if os.path.exists(alt_instance_path):
                         instance_path_full = alt_instance_path
                 
-                self.env = gym.make(self.env_id, env_config={"instance_path": instance_path_full})
+                # Create env_config with max_episode_steps
+                env_config = {"instance_path": instance_path_full}
+                if self.max_episode_steps is not None:
+                    env_config["max_episode_steps"] = self.max_episode_steps
+                    if idx == 0:  # Only print once
+                        print(f"   Setting max_episode_steps in env_config: {self.max_episode_steps}")
+                
+                self.env = gym.make(self.env_id, env_config=env_config)
                 
             def reset(self, **kwargs):
                 # Create new environment with random instance on each reset
@@ -116,7 +129,7 @@ def make_env_multi_instance(env_id, seed, idx, capture_video, run_name, train_in
                 return obs, info
         
         # Create the multi-instance wrapper
-        env = MultiInstanceWrapper(env_id, train_instances, project_root)
+        env = MultiInstanceWrapper(env_id, train_instances, project_root, max_episode_steps)
         env = gym.wrappers.RecordEpisodeStatistics(env)
         env.action_space.seed(seed + idx)
         
@@ -224,7 +237,7 @@ if __name__ == "__main__":
             print(f"Found instance {instance} at: {instance_path}")
 
     envs = gym.vector.SyncVectorEnv(
-        [make_env_multi_instance(args.env_id, args.seed + i, i, False, run_name, args.train_instances) for i in range(args.num_envs)]
+        [make_env_multi_instance(args.env_id, args.seed + i, i, False, run_name, args.train_instances, args.max_episode_steps) for i in range(args.num_envs)]
     )
     assert isinstance(envs.single_action_space, gym.spaces.Discrete)
     assert isinstance(envs.single_observation_space, gym.spaces.Dict)

@@ -1,0 +1,56 @@
+{
+  "study_name": "scaling_study",
+  "timesteps_per_size": 1000000,
+  "eval_episodes": 20,
+  "sizes_included": [
+    "15x15_small",
+    "20x20_medium"
+  ],
+  "instance_groups": {
+    "15x15_small": {
+      "train": [
+        "ta01",
+        "ta02",
+        "ta03",
+        "ta04",
+        "ta05"
+      ],
+      "test": [
+        "ta06",
+        "ta07",
+        "ta08",
+        "ta09",
+        "ta10"
+      ],
+      "size": "15x15",
+      "jobs": 15,
+      "machines": 15,
+      "search_space_approx": "15^15"
+    },
+    "20x20_medium": {
+      "train": [
+        "ta21",
+        "ta22",
+        "ta23",
+        "ta24",
+        "ta25"
+      ],
+      "test": [
+        "ta26",
+        "ta27",
+        "ta28",
+        "ta29",
+        "ta30"
+      ],
+      "size": "20x20",
+      "jobs": 20,
+      "machines": 20,
+      "search_space_approx": "20^20"
+    }
+  },
+  "timestamp": "2025-06-02T10:44:39.489284",
+  "max_steps_by_size": {
+    "15x15_small": 2400,
+    "20x20_medium": 2400
+  }
+}
